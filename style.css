@@ -142,7 +142,10 @@ header {
     gap: 32px;
 }
 
-header h1 {
+header > h1{
+    text-align: center;
+}
+header > p{
     text-align: center;
 }
 
