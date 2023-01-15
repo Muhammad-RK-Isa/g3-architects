@@ -234,6 +234,51 @@ header h1 {
     z-index: 5;
 }
 
+/* -----------------------------------------------------Show-case---------------------------------------------- */
+
+
+.show-case{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    margin-bottom: 130px;
+}
+
+.projects{
+    display: flex;
+    gap: 3rem;
+}
+
+.project{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.project:is(:hover, :focus){
+    transform: scale(1.02);
+    transition: all ease 300ms;
+}
+
+.project:nth-child(1){
+    background-image: url("images/projects/project-1.jpg");
+}
+
+.project:nth-child(2){
+    background-image: url("images/projects/project-2.jpg");
+}
+
+.project:nth-child(3){
+    background-image: url("images/projects/project-3.jpg");
+}
+
+.project:nth-child(4){
+    background-image: url("images/projects/project-4.jpg");
+}
+
 /* ===============================================Facts================================================== */
 
 .facts{
