@@ -126,6 +126,13 @@ nav {
     list-style: none;
 }
 
+#check{
+    display: none;
+}
+
+.nav-menu-btn{
+    display: none;
+}
 /* =====================================================Header============================================== */
 
 header {
@@ -237,19 +244,19 @@ header h1 {
 /* -----------------------------------------------------Show-case---------------------------------------------- */
 
 
-.show-case{
+.show-case {
     display: flex;
     gap: 3rem;
     flex-direction: column;
     margin-bottom: 130px;
 }
 
-.projects{
+.projects {
     display: flex;
     gap: 3rem;
 }
 
-.project{
+.project {
     height: 400px;
     width: 400px;
     background-repeat: no-repeat;
@@ -258,40 +265,40 @@ header h1 {
     border-radius: 8px;
 }
 
-.project:is(:hover, :focus){
+.project:is(:hover, :focus) {
     transform: scale(1.02);
     transition: all ease 300ms;
 }
 
-.project:nth-child(1){
+.project:nth-child(1) {
     background-image: url("images/projects/project-1.jpg");
 }
 
-.project:nth-child(2){
+.project:nth-child(2) {
     background-image: url("images/projects/project-2.jpg");
 }
 
-.project:nth-child(3){
+.project:nth-child(3) {
     background-image: url("images/projects/project-3.jpg");
 }
 
-.project:nth-child(4){
+.project:nth-child(4) {
     background-image: url("images/projects/project-4.jpg");
 }
 
 /* ===============================================Facts================================================== */
 
-.facts{
+.facts {
     margin-bottom: 180px;
 }
 
-.facts__container{
+.facts__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.facts__heading{
+.facts__heading {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -299,7 +306,7 @@ header h1 {
     margin-bottom: 100px;
 }
 
-.fact{
+.fact {
     border: solid 1px var(--color-primary);
     border-radius: 8px;
     padding: 45px 40px;
@@ -310,27 +317,27 @@ header h1 {
     justify-content: center;
 }
 
-.fact:is(:focus, :hover){
+.fact:is(:focus, :hover) {
     transform: scale(1.05);
     background-color: var(--color-bg);
     transition: all ease 300ms;
 }
 
-.fact img{
+.fact img {
     margin-bottom: 5px;
 }
 
-.fact h2{
+.fact h2 {
     color: var(--color-dark-500);
 }
 
-.fact h3{
+.fact h3 {
     color: var(--color-dark-400);
 }
 
 /* ---------------------------------------------Sponsors----------------------------------- */
 
-.sponsors{
+.sponsors {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -339,13 +346,13 @@ header h1 {
     margin-bottom: 130px;
 }
 
-.sponsors__heading{
+.sponsors__heading {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.sponsors-container{
+.sponsors-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -357,11 +364,11 @@ header h1 {
 /* --------------------------------------------Footer----------------------------------------- */
 
 
-footer h3{
+footer h3 {
     background-color: var(--color-bg);
     text-align: center;
     padding: 38px 0;
     margin-bottom: 216px;
-    color: var(--color-dark-500) ;
+    color: var(--color-dark-500);
     font-weight: 400;
 }
